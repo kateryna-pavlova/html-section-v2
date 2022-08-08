@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: center;
     position: relative;
-    text-align: center;
+    text-align: left;
+    font-size: smaller;
    }
    
    .about__heading {font-size:smaller;}
@@ -14,25 +15,29 @@
         display: inline;
     }}
     .years {border: 2px solid gainsboro;
-        padding: 0 4px;}
+        padding: 20px 20px;
+    margin: 15px;}
     .tours {border: 2px solid gainsboro;
-        padding: 0 4px;
+        padding: 20px 20px;
+        margin: 15px;
         }
     .clients {border: 2px solid gainsboro;
-        padding: 0 4px;
+        padding: 20px 20px;
+        margin:15px;
         }
     .guides {border: 2px solid gainsboro;
-        padding: 0 4px;}
+        padding: 20px 20px;
+    margin: 15px;}
 
         .about__container {display: flex;
             flex-direction: row;
             justify-content: center;
             position: relative;
             text-align: center;
-        ;}
+        }
         img {max-width: 100%;
         max-height: 100%;}
             @media (max-width:800px) {
                 .about__container{
-                    display: inline;
+                    display: inline-block;
                 }}
